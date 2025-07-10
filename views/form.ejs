@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Sale Deed Form</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<div>
+  <div class="container">
+    <h2>Sale Deed Generator</h2>
+    <form action="/generate" method="POST">
+      <label>Full Name:</label><br>
+      <input name="name" required><br><br>
+
+      <label>Father's Name:</label><br>
+      <input name="father_name" required><br><br>
+
+      <label>Property Size (sq.ft.):</label><br>
+      <input name="property_size" required><br><br>
+
+      <label>Sale Amount (₹):</label><br>
+      <input name="sale_amount" required><br><br>
+
+      <label>Date:</label><br>
+      <input name="date" type="date" required><br><br>
+
+      <button type="submit">Generate PDF</button>
+    </form>
+  </div>
+  </body>
+
+</html>
