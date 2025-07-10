@@ -13,5 +13,5 @@ This app generates a customized sale deed PDF based on user input.
 
 1. Clone or unzip the repo:
    ```bash
-   git clone https://github.com/yourname/sale-deed-generator.git
+   git clone https://github.com/SheleshPratapSingh/Sale-Deed-Generator.git
    cd sale-deed-generator
